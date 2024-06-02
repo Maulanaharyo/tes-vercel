@@ -1,0 +1,55 @@
+.container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: whitesmoke ;
+    padding: 20px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+form h1{
+    text-align: center;
+}
+
+form span{
+    text-align: center;
+    color: gray;
+}
+
+label{
+    font: 20px;
+    font-weight: bold;
+}
+
+.input-contact{
+    padding: 10px;
+    background-color:white;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(75, 94, 100);
+}
+
+.input-submit{
+    background-color:rgb(171, 165, 250);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    border: 1px solid rgb(100, 92, 75);
+    cursor: pointer;
+    
+}
+
+textarea{
+    resize: none;
+}
